@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+		<head>
+		<title>Shop</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="brandstyle.css" />
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+	</head>
+	
+	<body>
+		<ul id="nav">
+			<li><img id="logo" src="images/beards_watch.jpg" alt="Banner Image"></li>
+			<li class="nav"><a href="home.html"><h2>Home</h2></a></li>
+			<li class="nav"><a href="episodes.html"><h2 >Episodes</h2></a></li>
+			<li class="nav"><a href="calender.html"><h2>Calendar</h2></a></li>
+			<li class="nav"><a href="gallery.html"><h2>Gallery</h2></a></li>
+			<li class="nav"><a href="archives.html"><h2>Archives</h2></a></li>
+			<li class="nav"><a href="shop.html"><h2>Shop</h2></a></li>
+			<li class="nav"><a href="contact.html"><h2>Contact</h2></a></li>
+		
+		</ul>
+		<div id="header">
+					
+			</div>
+		<div id="rightcol">
+			<h2>Shop</h2>
+			<h3>Check out our new merchadise in a variety of colors and options</h3>
+			
+			<div class="container">
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=2&cid=573&sid=front"><img src="images/shirt.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">T-Shirts</figcaption></figure>
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=401&cid=6651&sid=front"><img src="images/sticker.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">Stickers</figcaption></figure>
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=212&cid=5822&sid=front"><img src="images/hoody.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">Hoodies</figcaption></figure>
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=14&cid=423&sid=front"><img src="images/tank.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">Tank Tops</figcaption></figure>
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=11&cid=384&sid=front"><img src="images/longsleeve.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">Long Sleeve Shirts</figcaption></figure>
+					<figure>
+						<a href="https://teespring.com/the-beard-s-watch-fresh-logo-g#pid=522&cid=101878&sid=front"><img src="images/longsleeve.jpg" alt="Banner Image" width=300 height=300></a>
+						<figcaption class="gallery">Mugs</figcaption></figure>
+						
+			</div>
+		<footer> 
+			
+			<p>"Podcast is coming!"<br><br></p>
+		
+	</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<script type="text/javascript">
+			$("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+			$("#menu").click(function(){
+				$("#nav").toggle();
+			});
+			$(window).resize(function(){
+				if(window.innerWidth > 768) {
+					$("#nav").removeAttr("style");
+				}
+			});
+		</script>
+	</body>
+
+</html>

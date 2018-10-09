@@ -1,0 +1,283 @@
+body, html {
+	margin: 0;
+	background-color: #A5ACAF;
+	font-family: Tahoma, Geneva, sans-seri
+
+}
+
+/*-- Navigation menu styling --*/
+#nav {
+	list-style-type: none ;
+	margin: 0;
+	padding: 0;
+	width: 15%;
+	background-color: #0088CE;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.nav  {
+	display: block;
+	color: #000;
+	padding: 0;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.nav a:hover{
+	background-color: #0088CE;
+	color: white;
+}
+
+#logo{
+	width: 100%;
+	height: 150px;
+}
+
+.logo2{
+	width:300px;
+	height: 150px;
+	margin-left: 430px;
+}
+
+.gallery{
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	font-weight: bold
+}
+
+
+/*-- Contact form styling --*/
+form {
+  padding: 0 60px 65px 60px;}
+
+label {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 24px;}
+
+input[type='text'], input[type='password'], textarea {
+  background-color: #999;
+  color: #666;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 24px;
+  width: 96%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+  border: 1px solid #fff;
+  background-color: #fff;
+  outline: none;}
+
+input[type='submit'], a.add {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  margin-top: 10px;
+  float: right;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+input[type='submit']:hover, a.add:hover {
+  background-color: #d75359;
+  color: #f3dad1;
+  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  top: 1px;}
+
+textarea {
+  width: 96%;
+  height: 5em;
+  line-height: 1.4em;}
+
+
+/*-- Main content styling --*/
+#rightcol{
+	margin-left: 15%;
+	padding: 1px 16px;
+	overflow: auto;
+	background-color: #A5ACAF;
+}
+
+#p{
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	width: 49%;
+
+}
+
+#logo2{
+	float: right;
+	width: 49%;
+	height: 300px;
+}
+
+
+/*-- Header image & title --*/
+#header{
+	height: 155px;
+	margin-right: -10px;
+	margin-left: -30px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	font-family: 'Black Ops One', cursive;
+	text-align: center;
+	text-shadow: 7px 10px 10px rgba(0,0,0,0.40);
+	font-size: 200%;
+	color: #0088CE;
+	background-image: url(images/header_image.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center 0%;
+	background-position: center 0%;
+}
+
+
+
+h2{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h3{
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+
+p{
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #A5ACAF;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a{
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.list a:hover{
+	background-color: #0088CE;
+	color: black;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #A5ACAF;
+  text-align: center;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.watch{
+	font-size: 25px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*-- Bootstrap according component --*/
+.card-header{
+	font-size: 30px;
+}
+button{
+	background-color: #0088CE;
+}
+
+.card{
+	margin-top: -20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.card-body{
+	text-align: center;
+	background-color: #A5ACAF;
+	margin-top: -30px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+/*-- Media Queries --*/
+@media(max-width: 768px){
+	#logo2, #p{
+		float: none;
+		text-align: center;
+		width: 100%;
+		}
+	#header, #rightcol{
+		width: 100%;
+		margin: -7px;
+		padding-top: -60px;
+	}
+	}
+
+@media screen and (max-width: 768px) {
+		#menu {
+			width:1.4em;
+			display: block;
+			color: #0088CE;
+			font-size:2em;
+			text-align: center;
+			margin-bottom: -45px;
+			
+		}
+		#nav.js {
+
+			display: none;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		li {
+			width:100%;
+			border-right:none;
+		}
+
+		#nav{
+			margin-top: 40px;
+			width: 150px;
+			text-align: left;
+			overflow: auto;
+		}
+
+		#logo{
+			
+			width: 100%;
+			height: 100px;
+}
+
+	}
+
+	@media screen and (min-width: 768px) {
+		#menu {
+			display: none;
+		}
+	}
+

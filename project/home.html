@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="brandstyle.css" />
+		<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+			
+	</head>
+	
+	<body>
+
+		<ul id="nav">
+			
+			<li><img id="logo" src="images/beards_watch.jpg" alt="Banner Image"></li>
+			<li class="nav"><a href="home.html"><h2>Home</h2></a></li>
+			<li class="nav"><a href="episodes.html"><h2 >Episodes</h2></a></li>
+			<li class="nav"><a href="calender.html"><h2>Calendar</h2></a></li>
+			<li class="nav"><a href="gallery.html"><h2>Gallery</h2></a></li>
+			<li class="nav"><a href="archives.html"><h2>Archives</h2></a></li>
+			<li class="nav"><a href="shop.html"><h2>Shop</h2></a></li>
+			<li class="nav"><a href="contact.html"><h2>Contact</h2></a></li>
+		
+		</ul>
+		<div id="header">
+					
+			</div>
+		<div id="rightcol">
+			<h3>Weekly discussions of Sports, TV shows, Movies, Music, Breweries, Life, and whatever else is on our minds. 
+			Fun will be had!</h3>
+			<img id="logo2" src="images/logo.jpg" alt="Banner Image">
+			
+			<div id="p">
+			<p>Need more discussion on things that really matter like beer, sports, and pop culture?  Well look no further.
+				The Beards Watch Podcast features Jacob and varying guest hosts and guest from all walks of life and backgrounds to 
+				provide "expert" opinions the topics most important to your life. We talk Sports, TV shows, Music, Breweries, Life, and Whatever else is on our mind.
+				It's like hanging out with your friends, except we are cooler than your normal friends.  So give it a listen.  The Beards Watch Podcast...Fun will be had!<p>
+			</div>
+				
+		</div>
+		<footer> 
+		<p>"Podcast is coming!"<br><br></p>
+		
+	</footer>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<script type="text/javascript">
+			$("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+			$("#menu").click(function(){
+				$("#nav").toggle();
+			});
+			$(window).resize(function(){
+				if(window.innerWidth > 768) {
+					$("#nav").removeAttr("style");
+				}
+			});
+		</script>
+	</body>
+
+</html>
